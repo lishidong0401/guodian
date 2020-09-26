@@ -14,21 +14,27 @@ a:focus { outline: none; }    /* 去掉火狐下链接虚线框 */
 /*分页器*/
 .cl_c_lt_lft_pager{margin: 40px auto 75px;text-align:center;font-size: 14px;color: #444;}
 .cl_c_lt_lft_pager span{}
-.cl_c_lt_lft_pager a{font-size: 14px;color: #444444;padding: 10px 15px;border: 1px solid #e5e5e5;background: #fff;border-radius: 4px;}
+.cl_c_lt_lft_pager a{font-size: 14px;color: #444444;padding: 10px 15px;border: 1px solid #d2d2d2;background: #fff;border-radius: 4px;margin:0px 3px;}
 .cl_c_lt_lft_pager a:hover{background: #00796a;color:#fff;}
 .cl_c_lt_lft_pager_change{background:#00796a !important;color:#fff !important;}
-.cl_c_lt_lft_pager .pager_prev{font-size: 14px;color: #444444;padding: 10px 15px;border: 1px solid #e5e5e5;background: #fff;cursor: pointer;border-radius: 4px;}
+.cl_c_lt_lft_pager .pager_prev{font-size: 14px;color: #444444;padding: 10px 15px;border: 1px solid #d2d2d2;background: #fff;cursor: pointer;border-radius: 4px;background:#efefef;}
 .cl_c_lt_lft_pager .pager_prev:hover{background: #00796a;color:#fff;}
-.cl_c_lt_lft_pager .pager_next{font-size: 14px;color: #444444;padding: 10px 15px;border: 1px solid #e5e5e5;background: #fff;cursor: pointer;border-radius: 4px;}
+.cl_c_lt_lft_pager .pager_next{font-size: 14px;color: #444444;padding: 10px 15px;border: 1px solid #d2d2d2;background: #fff;cursor: pointer;border-radius: 4px;background:#efefef;}
 .cl_c_lt_lft_pager .pager_next:hover{background: #00796a;color:#fff;}
 
 .cl_c_lt_lft_pager .pager_ju{}
 .cl_c_lt_lft_pager .pager_ju{}
-.cl_c_lt_lft_pager .pager_ju input{width: 45px;height: 34px;border: 1px solid #e5e5e5;box-sizing: border-box;text-align: center;}
+.cl_c_lt_lft_pager .pager_ju input{width: 45px;height: 34px;border: 1px solid #d2d2d2;box-sizing: border-box;text-align: center;}
 .cl_c_lt_lft_pager .pager_ju input::-webkit-input-placeholder{color: #999999;font-size: 14px;}
 .cl_c_lt_lft_pager .pager_ju input::-moz-placeholder{color: #999999;font-size: 14px;}
 .cl_c_lt_lft_pager .pager_ju input:-ms-input-placeholder{color: #999999;font-size: 14px;}
 
 .cl_c_lt_lft_pager .pager_jump_page{}
-.cl_c_lt_lft_pager .pager_jump{border: 1px solid #e5e5e5;box-sizing: border-box;text-align: center;padding: 6px 10px;background: #fff;border-radius: 5px;cursor:pointer;}
+.cl_c_lt_lft_pager .pager_jump{border: 1px solid #d2d2d2;box-sizing: border-box;text-align: center;padding: 6px 10px;background: #fff;border-radius: 5px;cursor:pointer;}
 .cl_c_lt_lft_pager .pager_jump:hover{background:#00796a;color:#fff;}
+
+/*上下篇*/
+.examples_view_page{padding:20px 30px;background:#f6f6f6;margin-top:40px;overflow:hidden;font-size:14px;color:#181818;}
+.examples_view_prevpage{float:left;}
+.examples_view_nextpage{float:right;}
+.examples_view_page a{font-size:14px;color:#181818;}

@@ -16,16 +16,7 @@
 
 	/*内容*/
 .exampleslist_contlist{overflow:hidden;margin-top:40px;}
-.exampleslist_contlist_tleft{float:left;font-size:30px;color:#000;}
-.exampleslist_contlist_tright{float:right;}
+.exampleslist_contlist_tleft h1{font-size:30px;color:#000;}
+.exampleslist_contlist_time{font-size:14px;color:#999999;margin-top:10px;}
 .exampleslist_contlist_top{overflow:hidden;}
-.exampleslist_contlist_ul{margin-top:20px;overflow:hidden;}
-.exampleslist_contlist_li{margin-top:35px;}
-.exampleslist_contlist_litop{overflow:hidden;}
-.exampleslist_contlist_cont{padding:30px 20px;font-size:14px;color:#181818;line-height:28px;background:#f4f8f7;margin-top:25px;}
-.exampleslist_contlist_title{float:left;}
-.exampleslist_contlist_title a{font-size:20px;color:#181818;font-weight:bold;line-height:50px;}
-.exampleslist_contlist_timebb{float:right;font-size:14px;color:#999;padding-top:18px;}
-.exampleslist_contlist_title img{width:54px;}
-.exampleslist_contlist_time{float:right;padding-left:10px;border-left:1px solid #999;height:16px;line-height:18px;}
-.exampleslist_contlist_bb{float:left;padding-right:10px;height:16px;line-height:18px;}
+.exampleslist_contlist_c{margin-top:30px;font-size:14px;color:#141414;line-height:28px;}

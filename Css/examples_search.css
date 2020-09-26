@@ -2,7 +2,7 @@
 
 	/*搜索*/
 .examples_search{float:right;}
-.examples_input{width:950px;height:50px;float:left;padding:0px 10px;}
+.examples_input{width:950px;height:50px;float:left;padding:0px 10px;font-size:18px;}
 .examples_search_btn{border:none;width:54px;height:54px;background-image: url(../Images/examples_searc_btn.png);background-repeat: no-repeat;background-position: center center;background-color: #00796a;cursor:pointer;}
 .xn_c_examples_search{width:1036px;margin:40px auto 0px;}
 .exampleslist_contlist{overflow:hidden;margin-top:40px;}

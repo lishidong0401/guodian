@@ -1,11 +1,11 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>开发样例列表</title>
+    <title>开发样例详情</title>
     <meta name="keywords" content="国电" />
     <meta name="description" content="国电" />
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <link rel="stylesheet" type="text/css" href="Css/examples_list.css" />
+    <link rel="stylesheet" type="text/css" href="Css/examples_view.css" />
     <link rel="stylesheet" type="text/css" href="Css/global.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico"/>
@@ -59,219 +59,34 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="examples_search">
-                            <input id="examples_input" type="text" value="" class="examples_input">
-                            <input type="button" class="examples_search_btn">
-                        </div>
                     </div>
                     <div class="exampleslist_contlist">
                         <div class="exampleslist_contlist_top">
-                            <div class="exampleslist_contlist_tleft">java开发样例</div>
-                            <div class="exampleslist_contlist_tright">
-                                
+                            <div class="exampleslist_contlist_tleft">
+                                <h1>java开发样例</h1>
+                            </div>
+                            <div class="exampleslist_contlist_time">
+                                <span class="exampleslist_contlist_time1">更新时间：</span>
+                                <span class="exampleslist_contlist_time2">2020-09-01 16:26:03</span>
                             </div>
                         </div>
-                        <ul class="exampleslist_contlist_ul">
-                            <li class="exampleslist_contlist_li">
-                                <div class="exampleslist_contlist_litop">
-                                    <div class="exampleslist_contlist_title">
-                                        <a href="">
-                                            <img src="images/java_icon.png" alt="">
-                                            <i>1. </i>
-                                            <span class="exampleslist_contlist_name">即时通讯样例</span>
-                                        </a>
-                                    </div>
-                                    <div class="exampleslist_contlist_timebb">
-                                        <div class="exampleslist_contlist_bb">
-                                            <span class="exampleslist_contlist_bb1">最新版本：</span>
-                                            <span class="exampleslist_contlist_bb2">2.1.3</span>
-                                        </div>
-                                        <div class="exampleslist_contlist_time">
-                                            <span class="exampleslist_contlist_time1">最后更新：</span>
-                                            <span class="exampleslist_contlist_time2">2020-09-02 10:20:23</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="exampleslist_contlist_cont">
-                                    组件文档主要是提供云到端的一站式解决方案，能有效降低技术门槛、减少研发成本、提升开发效率。组件文档主要是提供云到端的一站式解决方案，能有效降低技术门槛、减少研发成本、提升开发效率。
-                                </div>
-                            </li>
-
-                            <li class="exampleslist_contlist_li">
-                                <div class="exampleslist_contlist_litop">
-                                    <div class="exampleslist_contlist_title">
-                                        <a href="">
-                                            <img src="images/java_icon.png" alt="">
-                                            <i>2. </i>
-                                            <span class="exampleslist_contlist_name">小程序样例 </span>
-                                        </a>
-                                    </div>
-                                    <div class="exampleslist_contlist_timebb">
-                                        <div class="exampleslist_contlist_bb">
-                                            <span class="exampleslist_contlist_bb1">最新版本：</span>
-                                            <span class="exampleslist_contlist_bb2">2.1.3</span>
-                                        </div>
-                                        <div class="exampleslist_contlist_time">
-                                            <span class="exampleslist_contlist_time1">最后更新：</span>
-                                            <span class="exampleslist_contlist_time2">2020-09-02 10:20:23</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="exampleslist_contlist_cont">
-                                    组件文档主要是提供云到端的一站式解决方案，能有效降低技术门槛、减少研发成本、提升开发效率。组件文档主要是提供云到端的一站式解决方案，能有效降低技术门槛、减少研发成本、提升开发效率。
-                                </div>
-                            </li>
-
-                            <li class="exampleslist_contlist_li">
-                                <div class="exampleslist_contlist_litop">
-                                    <div class="exampleslist_contlist_title">
-                                        <a href="">
-                                            <img src="images/java_icon.png" alt="">
-                                            <i>3. </i>
-                                            <span class="exampleslist_contlist_name">UI基础框架样例</span>
-                                        </a>
-                                    </div>
-                                    <div class="exampleslist_contlist_timebb">
-                                        <div class="exampleslist_contlist_bb">
-                                            <span class="exampleslist_contlist_bb1">最新版本：</span>
-                                            <span class="exampleslist_contlist_bb2">2.1.3</span>
-                                        </div>
-                                        <div class="exampleslist_contlist_time">
-                                            <span class="exampleslist_contlist_time1">最后更新：</span>
-                                            <span class="exampleslist_contlist_time2">2020-09-02 10:20:23</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="exampleslist_contlist_cont">
-                                    组件文档主要是提供云到端的一站式解决方案，能有效降低技术门槛、减少研发成本、提升开发效率。组件文档主要是提供云到端的一站式解决方案，能有效降低技术门槛、减少研发成本、提升开发效率。
-                                </div>
-                            </li>
-
-                            <li class="exampleslist_contlist_li">
-                                <div class="exampleslist_contlist_litop">
-                                    <div class="exampleslist_contlist_title">
-                                        <a href="">
-                                            <img src="images/java_icon.png" alt="">
-                                            <i>4. </i>
-                                            <span class="exampleslist_contlist_name">UI基础框架样例</span>
-                                        </a>
-                                    </div>
-                                    <div class="exampleslist_contlist_timebb">
-                                        <div class="exampleslist_contlist_bb">
-                                            <span class="exampleslist_contlist_bb1">最新版本：</span>
-                                            <span class="exampleslist_contlist_bb2">2.1.3</span>
-                                        </div>
-                                        <div class="exampleslist_contlist_time">
-                                            <span class="exampleslist_contlist_time1">最后更新：</span>
-                                            <span class="exampleslist_contlist_time2">2020-09-02 10:20:23</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="exampleslist_contlist_cont">
-                                    组件文档主要是提供云到端的一站式解决方案，能有效降低技术门槛、减少研发成本、提升开发效率。组件文档主要是提供云到端的一站式解决方案，能有效降低技术门槛、减少研发成本、提升开发效率。
-                                </div>
-                            </li>
-
-                            <li class="exampleslist_contlist_li">
-                                <div class="exampleslist_contlist_litop">
-                                    <div class="exampleslist_contlist_title">
-                                        <a href="">
-                                            <img src="images/java_icon.png" alt="">
-                                            <i>5. </i>
-                                            <span class="exampleslist_contlist_name">即时通讯样例</span>
-                                        </a>
-                                    </div>
-                                    <div class="exampleslist_contlist_timebb">
-                                        <div class="exampleslist_contlist_bb">
-                                            <span class="exampleslist_contlist_bb1">最新版本：</span>
-                                            <span class="exampleslist_contlist_bb2">2.1.3</span>
-                                        </div>
-                                        <div class="exampleslist_contlist_time">
-                                            <span class="exampleslist_contlist_time1">最后更新：</span>
-                                            <span class="exampleslist_contlist_time2">2020-09-02 10:20:23</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="exampleslist_contlist_cont">
-                                    组件文档主要是提供云到端的一站式解决方案，能有效降低技术门槛、减少研发成本、提升开发效率。组件文档主要是提供云到端的一站式解决方案，能有效降低技术门槛、减少研发成本、提升开发效率。
-                                </div>
-                            </li>
-
-                            <li class="exampleslist_contlist_li">
-                                <div class="exampleslist_contlist_litop">
-                                    <div class="exampleslist_contlist_title">
-                                        <a href="">
-                                            <img src="images/java_icon.png" alt="">
-                                            <i>6. </i>
-                                            <span class="exampleslist_contlist_name">小程序样例 </span>
-                                        </a>
-                                    </div>
-                                    <div class="exampleslist_contlist_timebb">
-                                        <div class="exampleslist_contlist_bb">
-                                            <span class="exampleslist_contlist_bb1">最新版本：</span>
-                                            <span class="exampleslist_contlist_bb2">2.1.3</span>
-                                        </div>
-                                        <div class="exampleslist_contlist_time">
-                                            <span class="exampleslist_contlist_time1">最后更新：</span>
-                                            <span class="exampleslist_contlist_time2">2020-09-02 10:20:23</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="exampleslist_contlist_cont">
-                                    组件文档主要是提供云到端的一站式解决方案，能有效降低技术门槛、减少研发成本、提升开发效率。组件文档主要是提供云到端的一站式解决方案，能有效降低技术门槛、减少研发成本、提升开发效率。
-                                </div>
-                            </li>
-
-                            <li class="exampleslist_contlist_li">
-                                <div class="exampleslist_contlist_litop">
-                                    <div class="exampleslist_contlist_title">
-                                        <a href="">
-                                            <img src="images/java_icon.png" alt="">
-                                            <i>7. </i>
-                                            <span class="exampleslist_contlist_name">UI基础框架样例</span>
-                                        </a>
-                                    </div>
-                                    <div class="exampleslist_contlist_timebb">
-                                        <div class="exampleslist_contlist_bb">
-                                            <span class="exampleslist_contlist_bb1">最新版本：</span>
-                                            <span class="exampleslist_contlist_bb2">2.1.3</span>
-                                        </div>
-                                        <div class="exampleslist_contlist_time">
-                                            <span class="exampleslist_contlist_time1">最后更新：</span>
-                                            <span class="exampleslist_contlist_time2">2020-09-02 10:20:23</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="exampleslist_contlist_cont">
-                                    组件文档主要是提供云到端的一站式解决方案，能有效降低技术门槛、减少研发成本、提升开发效率。组件文档主要是提供云到端的一站式解决方案，能有效降低技术门槛、减少研发成本、提升开发效率。
-                                </div>
-                            </li>
-
-                            <li class="exampleslist_contlist_li">
-                                <div class="exampleslist_contlist_litop">
-                                    <div class="exampleslist_contlist_title">
-                                        <a href="">
-                                            <img src="images/java_icon.png" alt="">
-                                            <i>8. </i>
-                                            <span class="exampleslist_contlist_name">UI基础框架样例</span>
-                                        </a>
-                                    </div>
-                                    <div class="exampleslist_contlist_timebb">
-                                        <div class="exampleslist_contlist_bb">
-                                            <span class="exampleslist_contlist_bb1">最新版本：</span>
-                                            <span class="exampleslist_contlist_bb2">2.1.3</span>
-                                        </div>
-                                        <div class="exampleslist_contlist_time">
-                                            <span class="exampleslist_contlist_time1">最后更新：</span>
-                                            <span class="exampleslist_contlist_time2">2020-09-02 10:20:23</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="exampleslist_contlist_cont">
-                                    组件文档主要是提供云到端的一站式解决方案，能有效降低技术门槛、减少研发成本、提升开发效率。组件文档主要是提供云到端的一站式解决方案，能有效降低技术门槛、减少研发成本、提升开发效率。
-                                </div>
-                            </li>
-                        </ul>
+                        <div class="exampleslist_contlist_c">
+                            <p>后台内容更新中。。。。。。</p>
+                        </div>
+                    </div>
+                    <div class="examples_view_page">
+                        <div class="examples_view_prevpage">
+                            <a href="javascript:void(0)">
+                                <span>上一篇：</span>
+                                <span class="examples_view_paget">开发插件包</span>
+                            </a>
+                        </div>
+                        <div class="examples_view_nextpage">
+                            <a href="javascript:void(0)">
+                                <span>下一篇：</span>
+                                <span class="examples_view_paget">无</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -281,7 +96,7 @@
         <!--公共底部开始-->
 
         </div>
-        <script id="js__examples" type="text/javascript" src="Js/examples_list.js" ></script>
+        <script id="js__examples" type="text/javascript" src="Js/examples_view.js" ></script>
         <script type="text/javascript" src="Js/global.js"></script>
     </form>
 </body>

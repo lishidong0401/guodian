@@ -1,0 +1,16 @@
+﻿/*开发样例列表*/
+
+	/*搜索*/
+.examples_search{float:right;}
+.examples_input{width:950px;height:50px;float:left;padding:0px 10px;font-size:18px;}
+.examples_search_btn{border:none;width:54px;height:54px;background-image: url(../Images/examples_searc_btn.png);background-repeat: no-repeat;background-position: center center;background-color: #00796a;cursor:pointer;}
+.xn_c_examples_search{width:1200px;margin:0px auto}
+.xn_c_examples_search_top{width:1036px;margin:40px auto 0px;}
+
+.xn_c_file_search_cont{border:1px solid #e5e5e5;border-bottom:none;text-align:center;color:#141414;margin-top:60px;margin-bottom:60px;}
+.xn_c_file_search_cont_t{border-bottom:1px solid #e5e5e5;background: #edf3f2;overflow:hidden;line-height:64px;font-size:18px;color:#141414;}
+.file_search_contlist_li{border-bottom:1px solid #e5e5e5;overflow:hidden;}
+.file_search_contlist_li a{font-size:14px;line-height:54px;overflow:hidden;color:#141414;display:block;}
+.file_search_contlist_ul{overflow:hidden;}
+.xn_c_file_search_tname,.xn_c_file_search_cname{width:597px;float:left;border-right:1px solid #e5e5e5;}
+.xn_c_file_search_tlink,.xn_c_file_search_clink{width:50%;float:right;}
