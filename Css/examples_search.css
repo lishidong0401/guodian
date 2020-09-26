@@ -1,0 +1,22 @@
+﻿/*开发样例列表*/
+
+	/*搜索*/
+.examples_search{float:right;}
+.examples_input{width:950px;height:50px;float:left;padding:0px 10px;}
+.examples_search_btn{border:none;width:54px;height:54px;background-image: url(../Images/examples_searc_btn.png);background-repeat: no-repeat;background-position: center center;background-color: #00796a;cursor:pointer;}
+.xn_c_examples_search{width:1036px;margin:40px auto 0px;}
+.exampleslist_contlist{overflow:hidden;margin-top:40px;}
+.exampleslist_contlist_tleft{float:left;font-size:30px;color:#000;}
+.exampleslist_contlist_tright{float:right;}
+.exampleslist_contlist_top{overflow:hidden;}
+.exampleslist_contlist_ul{overflow:hidden;}
+.exampleslist_contlist_li{margin-top:35px;}
+.exampleslist_contlist_litop{overflow:hidden;}
+.exampleslist_contlist_cont{padding:30px 20px;font-size:14px;color:#181818;line-height:28px;background:#f4f8f7;margin-top:25px;}
+.exampleslist_contlist_title{float:left;}
+.exampleslist_contlist_title a{font-size:20px;color:#181818;font-weight:bold;line-height:50px;}
+.exampleslist_contlist_timebb{float:right;font-size:14px;color:#999;padding-top:18px;}
+.exampleslist_contlist_title img{width:54px;margin-right:10px;}
+.exampleslist_contlist_time{float:right;padding-left:10px;border-left:1px solid #999;height:16px;line-height:18px;}
+.exampleslist_contlist_bb{float:left;padding-right:10px;height:16px;line-height:18px;}
+.xn_c_examples_search_cont{margin-bottom:100px;}
