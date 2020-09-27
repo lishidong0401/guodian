@@ -20,3 +20,23 @@
 .exampleslist_contlist_time{font-size:14px;color:#999999;margin-top:10px;}
 .exampleslist_contlist_top{overflow:hidden;}
 .exampleslist_contlist_c{margin-top:30px;font-size:14px;color:#141414;line-height:28px;}
+	/*建议*/
+.examples_view_feedback{margin-top:30px;padding:0px 25px 40px 25px;border:1px solid #e5e5e5;}
+.examples_view_feedtop{border-bottom:1px dashed #e1e1e1;padding:15px 0px;overflow:hidden;}
+.examples_view_ft{float:left;font-size:16px;color:#181818;}
+.examples_view_feedxin{float:left;margin-left:10px;}
+.examples_view_feedli{float:left;width:27px;height:24px;background:url(../images/feedback_xin.png) no-repeat center center;margin-left:10px;cursor:pointer;}
+.examples_view_feedli.on{background:url(../images/feedback_xin_curr.png) no-repeat center center;margin-left:10px;cursor:pointer;}
+.examples_view_ct{font-size:16px;color:#8b8b8b;padding:20px 0px;}
+.examples_view_checkbox{padding:10px 0px;border-bottom:1px dashed #e1e1e1;}
+.examples_view_checkbox label{font-size:14px;color:#181818;margin-bottom:20px;display:block;padding-left:30px;line-height:16px;background:url(../images/checkbox.png) no-repeat left center;}
+.examples_view_checkbox label.on{background:url(../images/checkbox_seled.png) no-repeat left center;}
+.examples_view_checkbox label input{display:none;}
+.other_problem{display:block;padding:20px;border:1px solid #e1e1e1;}
+#other_problem{width:100%;border:none;outline:none;font-size:16px;color:#181818;}
+.feedback_send{margin:35px 0px 15px;}
+#feedback_send_btn{border:none;outline:none;width:220px;height:54px;background:#00796a;text-align:center;line-height:54px;font-size:16px;color:#fff;cursor:pointer;}
+
+#niming_send label{font-size:14px;color:#181818;margin-bottom:20px;display:block;padding-left:25px;line-height:16px;background:url(../images/checkbox.png) no-repeat left center;}
+#niming_send label.on{background:url(../images/checkbox_seled.png) no-repeat left center;}
+#niming_send label input{display:none;}
