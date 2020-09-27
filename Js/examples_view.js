@@ -1,10 +1,10 @@
 ﻿$(function(){
 	var examples_feedback={
 		config:{
-			xin:"",
-			problem:"",
-			other:"",
-			niming:false
+			xin:"",	//评星
+			problem:"",	//遇到的问题
+			other:"",	//其他建议
+			niming:false	//是否匿名
 		},
 		Inte:function(){
 			//评星
