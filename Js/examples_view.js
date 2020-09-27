@@ -77,4 +77,4 @@
 	if($("#examples_view_feedback").length>0){
 		examples_feedback.Inte();
 	}
-})
+});
